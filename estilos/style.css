@@ -41,9 +41,9 @@ section#login {
 }
 
 section#login > div#imagem {
-    background: #37b9b9 url(../imagens/building-612x612.jpg) no-repeat;
+    background: #37b9b9 url(../imagens/building-2-612x612.jpg) no-repeat;
     background-size: cover;
-    background-position: right bottom;
+    background-position: center bottom;
     height: 200px;
     display: block;
 }
@@ -52,4 +52,13 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
